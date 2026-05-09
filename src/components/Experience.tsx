@@ -111,7 +111,7 @@ export default function Experience() {
                 <div className="flex items-start gap-4">
                   <div
                     className="mt-1 w-3 h-3 rounded-full shrink-0 ring-4"
-                    style={{ backgroundColor: role.color, ringColor: `${role.color}20` }}
+                    style={{ backgroundColor: role.color }}
                   />
                   <div>
                     <div className="flex flex-wrap items-center gap-3 mb-1">
