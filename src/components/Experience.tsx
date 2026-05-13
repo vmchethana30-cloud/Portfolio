@@ -3,20 +3,6 @@ import { useEffect, useRef, useState } from "react";
 
 const roles = [
   {
-    title: "Data Analyst",
-    org: "The University of Queensland",
-    period: "Feb 2026 — Present",
-    location: "Brisbane, AU",
-    type: "Full-time",
-    color: "#00d4ff",
-    bullets: [
-      "Designed SQL-based anomaly detection routines to surface data quality issues across the constituent CRM, reducing erroneous records affecting 1,000s of donor communications",
-      "Authored VBA automation scripts for donor segmentation, eliminating 4+ hours of weekly manual list-building per campaign cycle",
-      "Resolved persistent email-bounce and unsubscribe bugs, restoring reliable communication channels for the Advancement team",
-      "Processed and reconciled Return-to-Sender mail datasets, maintaining accurate address data for critical direct-mail campaigns",
-    ],
-  },
-  {
     title: "Advancement Services Officer",
     org: "James Cook University",
     period: "Mar 2024 — Dec 2025",
