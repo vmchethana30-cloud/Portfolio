@@ -26,6 +26,27 @@ const projects = [
   },
   {
     id: "02",
+    title: "NQ Chemotherapy Service Need Analysis",
+    org: "Personal Project · Python + Health Analytics",
+    description:
+      "Data-driven needs assessment across five North Queensland HHS to identify the optimal location for a new chemotherapy service. Combines cancer incidence, OOS trends, patient flow data, and population health risk factors into a weighted composite need score.",
+    impact: [
+      "Identified Mackay HHS (score 73/100) as highest-priority site — 23% of patients travelling 700km to Townsville for treatment",
+      "Built composite scoring framework across 4 evidence domains covering 5,389 annual cancer cases",
+      "Produced boardroom-ready information paper with 6 embedded charts and 4 actionable recommendations",
+    ],
+    tags: ["Python", "Pandas", "Matplotlib", "Jupyter", "Health Analytics", "NumPy"],
+    accent: "#7c3aed",
+    projectUrl: "/projects/health-analytics",
+    githubUrl: "https://github.com/vmchethana30-cloud/health-analytics-portfolio",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+      </svg>
+    ),
+  },
+  {
+    id: "03",
     title: "Donor Retention Intelligence Platform",
     org: "James Cook University",
     description:
@@ -46,7 +67,7 @@ const projects = [
     ),
   },
   {
-    id: "03",
+    id: "04",
     title: "Real-Time Client Engagement Dashboard",
     org: "Infosys",
     description:
@@ -67,7 +88,7 @@ const projects = [
     ),
   },
   {
-    id: "04",
+    id: "05",
     title: "CRM Data Integrity & Automation Engine",
     org: "University of Queensland",
     description:
@@ -112,7 +133,7 @@ export default function FeaturedWork() {
         <div className={`mb-16 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <p className="font-mono text-xs text-accent tracking-widest uppercase mb-3">Featured Work</p>
           <h2 className="font-display text-4xl md:text-5xl text-text-primary">
-            Four projects that moved the needle
+            Five projects that moved the needle
           </h2>
         </div>
 
