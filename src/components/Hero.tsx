@@ -2,9 +2,8 @@
 import { useEffect, useRef } from "react";
 
 const stats = [
-  { value: "6+", label: "Years Experience" },
-  { value: "17%", label: "Avg Engagement Lift" },
-  { value: "50+", label: "Dashboards Built" },
+  { value: "5+", label: "Years Experience" },
+  { value: "30+", label: "Dashboards Built" },
   { value: "3", label: "Countries Impacted" },
 ];
 
@@ -112,9 +111,9 @@ export default function Hero() {
           className="max-w-xl text-lg md:text-xl text-text-secondary leading-relaxed mb-10 font-body animate-slide-up stagger-2"
           style={{ opacity: 0 }}
         >
-          Senior Data Analyst with 6 years transforming messy enterprise data
+          Senior Data Analyst with over 5 years of experience in transforming messy enterprise data
           into dashboards, pipelines, and insights that leadership actually acts
-          on. Specialising in Power BI, SQL, and Python across higher education
+          on. Specialising in Power BI, PostgreSQL, SQL and Python across higher education
           and consulting.
         </p>
 

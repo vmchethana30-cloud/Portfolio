@@ -39,7 +39,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                With six years of hands-on experience across consulting,
+                With over five years of hands-on experience across consulting,
                 higher education, and enterprise environments, I specialise in
                 building analytics infrastructure that organisations depend on
                 — not just dashboards that look good in presentations.
@@ -59,7 +59,7 @@ export default function About() {
 
             {/* Highlights */}
             <div className="mt-8 flex flex-wrap gap-3">
-              {["Power BI Certified", "Microsoft Fabric", "Permanent Resident", "Brisbane-based"].map((tag) => (
+              {["Power BI Certified", "Microsoft Fabric"].map((tag) => (
                 <span
                   key={tag}
                   className="text-xs font-mono text-accent-3 border border-accent-3/30 bg-accent-3/5 px-3 py-1 rounded-full"

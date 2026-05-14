@@ -87,28 +87,7 @@ const projects = [
       </svg>
     ),
   },
-  {
-    id: "05",
-    title: "CRM Data Integrity & Automation Engine",
-    org: "University of Queensland",
-    description:
-      "Designed and implemented a suite of SQL-based anomaly detection queries and VBA automation scripts to overhaul data quality across the university's constituent CRM database. Consolidated thousands of duplicate records and automated campaign-list generation.",
-    impact: [
-      "Eliminated a class of recurring email bounce issues affecting donor communications",
-      "Automated donor segmentation workflows previously requiring 4+ hours of manual processing per campaign",
-      "Established a reusable SQL anomaly-detection library for ongoing data governance",
-    ],
-    tags: ["SQL", "VBA", "Salesforce", "CRM", "Data Governance"],
-    accent: "#f59e0b",
-    githubUrl: null,
-    projectUrl: null,
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-      </svg>
-    ),
-  },
-];
+  ];
 
 export default function FeaturedWork() {
   const ref = useRef<HTMLDivElement>(null);
