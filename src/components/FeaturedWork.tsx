@@ -112,7 +112,7 @@ export default function FeaturedWork() {
         <div className={`mb-16 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <p className="font-mono text-xs text-accent tracking-widest uppercase mb-3">Featured Work</p>
           <h2 className="font-display text-4xl md:text-5xl text-text-primary">
-            Five projects that moved the needle
+            Four projects that moved the needle
           </h2>
         </div>
 

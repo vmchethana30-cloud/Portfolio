@@ -146,7 +146,7 @@ export default function Hero() {
 
         {/* Stats */}
         <div
-          className="grid grid-cols-2 md:grid-cols-4 gap-px bg-border rounded-xl overflow-hidden animate-slide-up stagger-4"
+          className="grid grid-cols-2 md:grid-cols-3 gap-px bg-border rounded-xl overflow-hidden animate-slide-up stagger-4"
           style={{ opacity: 0 }}
         >
           {stats.map((s) => (
@@ -166,7 +166,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float">
+      <div className="absolute bottom-9 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float">
         <span className="text-xs font-mono text-text-muted tracking-widest uppercase">scroll</span>
         <svg className="w-4 h-4 text-text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
