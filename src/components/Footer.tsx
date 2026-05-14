@@ -13,7 +13,7 @@ export default function Footer() {
             Email
           </a>
           <a
-            href="www.linkedin.com/in/chethana-vm-26669b143"
+            href="https://www.linkedin.com/in/chethana-vm-26669b143/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs text-text-muted hover:text-accent transition-colors"
