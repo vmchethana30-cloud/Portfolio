@@ -33,7 +33,7 @@ export default function Navbar() {
           href="#"
           className="font-mono text-sm text-accent tracking-widest uppercase hover:opacity-80 transition-opacity"
         >
-          CM<span className="text-text-secondary">.</span>
+          CHETHANA MANJUNATH<span className="text-text-secondary">.</span>
         </a>
 
         {/* Desktop links */}
