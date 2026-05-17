@@ -47,28 +47,6 @@ const projects = [
   },
   {
     id: "03",
-    title: "Healthcare Funding Analytics",
-    org: "Personal Project · Python + Power BI",
-    description:
-      "End-to-end analysis of Queensland public hospital funding across Activity Based Funding (ABF), Own Source Revenue (OSR), and National Funding Arrangements (NFA) — covering 14 HHS from 2019 to 2024 with COVID-19 impact assessment and Power BI-ready exports.",
-    impact: [
-      "Modelled 5,628 funding records across 3 streams — ABF, OSR and NFA — for 14 Queensland HHS over 6 years",
-      "Identified ED and Mental Health as consistent ABF cost overrun categories requiring targeted budget review",
-      "Quantified COVID-19 OSR impact (~25% drop in 2020) and tracked full recovery trajectory to 2024",
-      "Produced 7 Power BI-ready tables covering ABF variance, NFA utilisation, and OSR category performance",
-    ],
-    tags: ["Python", "Pandas", "Matplotlib", "Jupyter", "Power BI", "ABF", "NFA"],
-    accent: "#10b981",
-    projectUrl: "/projects/healthcare-funding",
-    githubUrl: "https://github.com/vmchethana30-cloud/healthcare-funding",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-  },
-  {
-    id: "04",
     title: "Donor Retention Intelligence Platform",
     org: "James Cook University",
     description:
@@ -89,7 +67,7 @@ const projects = [
     ),
   },
   {
-    id: "05",
+    id: "04",
     title: "Real-Time Client Engagement Dashboard",
     org: "Infosys",
     description:
@@ -109,28 +87,7 @@ const projects = [
       </svg>
     ),
   },
-  {
-    id: "06",
-    title: "CRM Data Integrity & Automation Engine",
-    org: "University of Queensland",
-    description:
-      "Designed and implemented a suite of SQL-based anomaly detection queries and VBA automation scripts to overhaul data quality across the university's constituent CRM database. Consolidated thousands of duplicate records and automated campaign-list generation.",
-    impact: [
-      "Eliminated a class of recurring email bounce issues affecting donor communications",
-      "Automated donor segmentation workflows previously requiring 4+ hours of manual processing per campaign",
-      "Established a reusable SQL anomaly-detection library for ongoing data governance",
-    ],
-    tags: ["SQL", "VBA", "Salesforce", "CRM", "Data Governance"],
-    accent: "#f59e0b",
-    githubUrl: null,
-    projectUrl: null,
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-      </svg>
-    ),
-  },
-];
+  ];
 
 export default function FeaturedWork() {
   const ref = useRef<HTMLDivElement>(null);
@@ -155,7 +112,7 @@ export default function FeaturedWork() {
         <div className={`mb-16 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <p className="font-mono text-xs text-accent tracking-widest uppercase mb-3">Featured Work</p>
           <h2 className="font-display text-4xl md:text-5xl text-text-primary">
-            Six projects that moved the needle
+            Four projects that moved the needle
           </h2>
         </div>
 
