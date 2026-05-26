@@ -51,9 +51,9 @@ export default function About() {
                 workflows that once consumed hours of manual effort each week.
               </p>
               <p>
-                Based in Brisbane as a Permanent Resident, I bring global
-                exposure from enterprise consulting in India combined with the
-                specific demands of the Australian higher education sector.
+                I bring globalexposure from enterprise consulting in 
+                India combined with thespecific demands of the Australian
+                higher education sector.
               </p>
             </div>
 

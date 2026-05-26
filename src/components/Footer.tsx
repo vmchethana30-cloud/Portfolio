@@ -13,14 +13,13 @@ export default function Footer() {
             Email
           </a>
           <a
-            href="https://www.linkedin.com/in/chethana-vm-26669b143/"
+            href="https://linkedin.com/in/chethana-vm"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs text-text-muted hover:text-accent transition-colors"
           >
             LinkedIn
           </a>
-          <span className="font-mono text-xs text-text-muted">Brisbane, AU</span>
         </div>
       </div>
     </footer>

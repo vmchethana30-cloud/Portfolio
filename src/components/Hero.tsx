@@ -2,8 +2,9 @@
 import { useEffect, useRef } from "react";
 
 const stats = [
-  { value: "5+", label: "Years Experience" },
-  { value: "30+", label: "Dashboards Built" },
+  { value: "6+", label: "Years Experience" },
+  { value: "17%", label: "Avg Engagement Lift" },
+  { value: "50+", label: "Dashboards Built" },
   { value: "3", label: "Countries Impacted" },
 ];
 
@@ -92,7 +93,7 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 bg-surface border border-border rounded-full px-4 py-1.5 mb-8 animate-fade-in">
           <span className="w-2 h-2 rounded-full bg-accent-3 animate-pulse-slow" />
           <span className="text-xs font-mono text-text-secondary tracking-wider">
-            Available for opportunities · Brisbane, AU
+            Available for opportunities
           </span>
         </div>
 
@@ -111,9 +112,9 @@ export default function Hero() {
           className="max-w-xl text-lg md:text-xl text-text-secondary leading-relaxed mb-10 font-body animate-slide-up stagger-2"
           style={{ opacity: 0 }}
         >
-          Senior Data Analyst with over 5 years of experience in transforming messy enterprise data
+          Senior Data Analyst with 6 years transforming messy enterprise data
           into dashboards, pipelines, and insights that leadership actually acts
-          on. Specialising in Power BI, PostgreSQL, SQL and Python across higher education
+          on. Specialising in Power BI, SQL, and Python across higher education
           and consulting.
         </p>
 
@@ -146,7 +147,7 @@ export default function Hero() {
 
         {/* Stats */}
         <div
-          className="grid grid-cols-2 md:grid-cols-3 gap-px bg-border rounded-xl overflow-hidden animate-slide-up stagger-4"
+          className="grid grid-cols-2 md:grid-cols-4 gap-px bg-border rounded-xl overflow-hidden animate-slide-up stagger-4"
           style={{ opacity: 0 }}
         >
           {stats.map((s) => (
@@ -166,7 +167,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-9 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float">
         <span className="text-xs font-mono text-text-muted tracking-widest uppercase">scroll</span>
         <svg className="w-4 h-4 text-text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
