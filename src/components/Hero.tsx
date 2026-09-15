@@ -88,7 +88,14 @@ export default function Hero() {
       <div className="orb w-80 h-80 bg-accent-2/10 bottom-1/4 right-0" style={{ animationDuration: "18s", animationDelay: "-5s" }} />
       <div className="orb w-64 h-64 bg-accent-3/8 top-1/2 left-1/2" style={{ animationDuration: "22s", animationDelay: "-9s" }} />
 
-     
+      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-28 pb-16">
+        {/* Status badge */}
+        <div className="inline-flex items-center gap-2 bg-surface border border-border rounded-full px-4 py-1.5 mb-8 animate-fade-in">
+          <span className="w-2 h-2 rounded-full bg-accent-3 animate-pulse-slow" />
+          <span className="text-xs font-mono text-text-secondary tracking-wider">
+            Available for opportunities
+          </span>
+        </div>
 
         {/* Headline */}
         <h1
