@@ -47,9 +47,6 @@ export default function Contact() {
               chethana.vm@outlook.in
             </a>
           </div>
-
-          {/* Meta info */}
-          </div>
         </div>
       </div>
     </section>
