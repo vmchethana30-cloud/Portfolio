@@ -49,14 +49,7 @@ export default function Contact() {
           </div>
 
           {/* Meta info */}
-          <div className="flex flex-wrap items-center justify-center gap-6 text-text-muted font-mono text-xs">
-            <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent-3 animate-pulse-slow" />
-                          </div>
-            <span className="text-border">·</span>
-            <span className="text-border">·</span>
-            <span className="text-border">·</span>
-          </div>
+          
         </div>
       </div>
     </section>
