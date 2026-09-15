@@ -49,7 +49,7 @@ export default function Contact() {
           </div>
 
           {/* Meta info */}
-          
+          </div>
         </div>
       </div>
     </section>
