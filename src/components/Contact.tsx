@@ -52,8 +52,7 @@ export default function Contact() {
           <div className="flex flex-wrap items-center justify-center gap-6 text-text-muted font-mono text-xs">
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-accent-3 animate-pulse-slow" />
-              Available for roles
-            </div>
+                          </div>
             <span className="text-border">·</span>
             <span className="text-border">·</span>
             <span className="text-border">·</span>

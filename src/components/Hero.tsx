@@ -93,7 +93,6 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 bg-surface border border-border rounded-full px-4 py-1.5 mb-8 animate-fade-in">
           <span className="w-2 h-2 rounded-full bg-accent-3 animate-pulse-slow" />
           <span className="text-xs font-mono text-text-secondary tracking-wider">
-            Available for opportunities
           </span>
         </div>
 
